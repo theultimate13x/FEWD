@@ -1,0 +1,50 @@
+body {
+background: #F6F6F6;
+font-family: arial, san serif;
+}
+
+header {
+  text-align: center;
+  border-top: 3px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0 30px 0;
+  }
+
+h1  {
+  text-transform: uppercase;
+  }
+
+h2 {
+text-transform: lowercase}
+}
+
+nav li {
+display: inline-block;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+<h2>  {
+line-height: 150%</p>
+}
+
+<h2>
+body div p {
+  background: red;
+  }
+
+div {
+  padding:
+  background:
+  border:}
+
+div > b span {
+color: green"
+}
+
+div.hover {
+background:blue
+}
