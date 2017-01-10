@@ -1,0 +1,51 @@
+nav {
+  background: red;
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+}
+
+body {
+  background: aqua;
+  margin: 0 auto;
+  max-width: 960px;
+  font-family: impact, sans serif;
+}
+
+h1 {
+  color: gray;
+  padding: 5x;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: orange;
+}
+
+ul {
+  color: yellow;
+}
+
+p {
+  color: red;
+}
+
+footer {
+  color: purple;
+}
+
+.image_scroll {
+  transition: 500ms;
+}
+
+.form {
+  color: gray;
+}
+
+#main_page {
+  color: brown;
+}
