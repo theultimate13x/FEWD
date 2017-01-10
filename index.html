@@ -1,151 +1,79 @@
+<!DOCTYPE html>
+<html>
+<title>Akira One</title>
 
 <head>
-font library here
-</head>
 
+<link rel="stylesheet" href="style.css">
+<link rel="script" href="script.js">
+<link rel="html" href="about.html">
+<link rel="html" href="fan.html">
+<link rel="html" href="toys.html">
+<!--<link rel="html" href="gallery.html">-->
+<link rel="html" href="form.html">
 
-<header>
+<script src="/assets/jquery.js"></script>
+<!--  look into adding mouse overs and pop-ups that explains what some of the scripting and text does -->
+
+<link href='https://fonts.googleapis.com/css?family=Impact' rel='stylesheet' type='text/css'>
+
+<!--If needed, add a CSS Reset such as to turn URL 'Return to main page' links brown instead of default blue-->
 
 <style>
-
-p1 {
-font: italic;
-font-style: Times-Roman;
-}
-
-.meet {
-float: right;
-background: white;
-transparency: 100%;
-}
-
-nav {
-float: right;
-}
-
-h1 {
-font: Times New;
-color: yellow;
-}
-
-h2 {
-font-style: bold;
-font: Sans;
-}
-
-h3 {
-font-style: bold;
-}
-
-.footer {
-background: black;
-color: white;
-font: Times New;
-font-type: small;
-}
-
-.top photo {
-backgrfound: gray;
-}
-
-button1 {
-backghround: yellow;
-border-radius: 25%;
-}
-
-button2 {
-background: gray;
-border-radius: 25%;
-}
-
-.top {
-background: black:
-}
-
-left {
-float: left;
-}
-
-quote {
-font-style: italic;
-color: black;
-}
-
-.top {
-color: white;
-}
-
-.content {
-display: inline-block;
-border: right;
-}
+/*--for future testing on a phone or tablet page */
+@media (max-width: 640px) {
+    body {
+      background: red;
+       }
+  }
 </style>
 
-</header>
+</head>
 
+<nav>Explore the site
+
+<!-- Use JS and on click to enable the functionality of the nav menu -->
+
+<select>
+  <option value="About">About Me</option>
+  <option value="Similar">Similar Fan Sites</option>
+  <option value="Toys">Toys & Collectibles</option>
+ <!-- <option value="Gallery">Gallery</option> -->
+  <option value="Form">Form</option>
+</select>
+
+</nav>
 
 <body>
-<div class="top">
-<left>
-<h1>Startup Matchmaker</h1>
-</left>
+<h1>Welcome to Akira One</h1><!--
+-->
+<p>This is the fan site of a lover of the motor bike seen in the genre-changing movie Akira.</p>
 
-<nav>
+<p>As I have searched online, I've seen that others have tried to make this motor bike! On my website I look to promote those folks as I find their site online. Btw, <a href="http://matus1976.com/akira_bike/research_fanart.html">here</a> is another Akira bike fan that even had a Kickstarter!</p>
+
+  <p>Found this other great Akira site focused on content coming in 2019! Visit <a href="http://www.akira2019.com">Akira2019.com</a>
+
+  <p>Just because it is a cool, great <u>working</u> build of Kaneda's motorcyle: <a href="http://tech-toys-new.blogspot.com/2012/04/motorcycle-design-with-strange-shape.html"><!-- -->here.</a></p>
+
+<h2>Links to more sites: </h2>
+
 <ul>
-<li><b>FIND DEVELOPERS</b></li>
-<li><b>FIND DESIGNERS</b></li>
-<li>How it Works</li>
-<li>Our Team</li>
-<li>Blog</li>
+  <li>Here is aother site that built a really good fascimilie of the motor bike riden by Kaneda in the movie: <a href="https://www.youtube.com/watch?v=Et2uQBayVmc">here.</a></li>
+
+<li>Here is a link where you can find Fan Art of Kaneda's motor bike: <a href="https://images.search.yahoo.com/search/images;_ylt=AwrSbDckT3VY.LcAnRZXNyoA;_ylu=X3oDMTEyYTN1MDl1BGNvbG8DZ3ExBHBvcwMxBHZ0aWQDVUkyQzNfMQRzZWMDc2M-?p=Akira+Movie+Motorbike+Fan+Art&fr=mcafee">here.</a></li>
+
+<li>Here is a great Mondo poster done for Alamo Drafthouse: <img src="http://s3.amazonaws.com/images.hitfix.com/assets/777/Akira_for_download.jpg" width="600" height="300"><br>- Courtesy of <a href="https://mondotees.com/collections/posters">Mondo posters</a>. Wish it featured the motor bike more though!</li>
+<p></p>
+
+<li>Here are some great Toys you can buy based on the Akira movie: <a href="https://images.search.yahoo.com/search/images;_ylt=AwrTcXsqT3VYlBAAiEaJzbkF;_ylu=X3oDMTBsZ29xY3ZzBHNlYwNzZWFyY2gEc2xrA2J1dHRvbg--;_ylc=X1MDOTYwNjI4NTcEX3IDMgRhY3RuA2NsawRiY2sDNzFydnJiOWJsMGltcyUyNmIlM0QzJTI2cyUzRHU5BGNzcmNwdmlkA2pQWXo2akl3Tmk1dzdfdGFWMUJLM0FkeE1qWXdNZ0FBQUFEX1FFb04EZnIDbWNhZmVlBGZyMgNzYS1ncARncHJpZAMwbkVad0kzaVNLaThXOWcwZm92YmFBBG10ZXN0aWQDVUkwMSUzRElNR0MxBG5fc3VnZwMwBG9yaWdpbgNpbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAwRxc3RybAMxNgRxdWVyeQNBa2lyYSBNb3ZpZSB0b3lzBHRfc3RtcAMxNDg0MDgzMDkwBHZ0ZXN0aWQDSU1HQzE-?gprid=0nEZwI3iSKi8W9g0fovbaA&pvid=jPYz6jIwNi5w7_taV1BK3AdxMjYwMgAAAAD_QEoN&p=Akira+Movie+toys&fr=mcafee&fr2=sb-top-images.search.yahoo.com&ei=UTF-8&n=60&x=wrt"><!---->here.</a></li>
+
 </ul>
-</nav>
-</div>
 
-<p>-----------------------------yellow line-------------------------</p>
-<br></br>
-<div class="quote">
-<p1>Because two brains <del>taste</del> <u>are</u> better than one.</p1>
-</div>
-<br></br>
-
-<div class="top photo">
-<background image img src="[]">
-
-<div class="meet">
-<h2>Meet your Match!</h2>
-<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
-<button1>CREATE A PROFILE</button1> 
-</div>
-
-<div class="content">
-<h3>Create a Profile</h3>
-<p>Are you a Designer?
-Developer? Put yourself
-out there so that others 
-can find you?</p>
-<button2>SIGN UP NOW</button2>
-line here
-<br></br>
-<h3>Find a Developer</h3>
-<p>Looking foe a fantastic 
-developer to work with
-on the next big thing?
-Look no further.</p>
-<button2>START YOUR SEARCH</button2>
-line here
-<br></br>
-<h3>Find a Dsigner</h3>
-<p>Need someone who can 
-make a product intuitive
- and appealing? Get ready. </p>
-<button2>START YOUR SEARCH</button2>
-</div>
-
-!!! Use on click JS funtion to turn box into an actual html button!!!
-<br></br>
-
-<div class="footer">
-<p>!copyright symbol!  2013 Startup Matchmaker. Made in NY.</p>
-<div>
+<p>If you wish to contact me, please click on the motorbike as it speeds away!</p>
+<!--find js that does that or change this content's wording -->
 
 </body>
+
+<footer>Network of Akira dedicated <a href="www.akiraone.net">websites.</a></footer>
+
+</html>
